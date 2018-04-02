@@ -20,7 +20,7 @@ public class Reader {
         System.out.print(prompt);
         System.out.println("");
         String str = input.nextLine();
-        return str;
+        return str.toLowerCase();
     }
 
     public String readLine() {
