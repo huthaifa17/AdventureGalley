@@ -24,6 +24,6 @@ public class Reader {
     }
 
     public String readLine() {
-        return input.nextLine();
+        return input.nextLine().toLowerCase();
     }
 }
